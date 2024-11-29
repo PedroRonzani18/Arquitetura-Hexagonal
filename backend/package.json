@@ -1,0 +1,41 @@
+{
+  "name": "@codelife/backend",
+  "version": "0.0.0",
+  "private": true,
+  "description": "backend para @codelife",
+  "main": "./dist/core/index.js",
+  "module": "./dist/core/index.mjs",
+  "types": "./dist/core/index.d.ts",
+  "scripts": {
+    "build": "tsup src --out-dir dist",
+    "start": "node build/core/index.js",
+    "dev": "tsx watch src/core/index.ts",
+    "prisma:migrate:dev": "npx prisma migrate dev"
+  },
+  "keywords": [],
+  "author": "PedroRonzani18",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/glob": "^8.1.0",
+    "@types/node": "^20.10.3",
+    "npm-run-all": "^4.1.5",
+    "prisma": "^5.20.0",
+    "supertest": "^6.3.3",
+    "ts-node": "^10.9.1",
+    "tsup": "^7.1.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6",
+    "vite-tsconfig-paths": "^4.2.0",
+    "vitest": "^0.34.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "@prisma/extension-pulse": "^1.2.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.21.0",
+    "glob": "^10.3.10",
+    "zod": "^3.21.4"
+  }
+}
