@@ -157,4 +157,4 @@ export class UsersPrismaRepository implements UsersRepository {
 }
 ```
 
-- Assim, temos a implementação da arquitetura hexagonal na prática, com a separação das camadas de acordo com a arquitetura hexagonal, em que as interfaces externas (frontend) se comunicam com os adaptadores (controllers), que por sua vez se comunicam com as classes de domínio (useCases, repositories e entities), e retornam o resultado para a interface a qual chamou.
+- Assim, temos a implementação da arquitetura hexagonal na prática, com a separação das camadas de acordo com a arquitetura hexagonal, em que as interfaces externas (frontend) se comunicam com os adaptadores (controllers, repositories), que por sua vez se comunicam com as classes de domínio (useCases, repositories e entities), e retornam o resultado para a interface a qual chamou.
