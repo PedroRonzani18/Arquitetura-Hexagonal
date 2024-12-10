@@ -14,18 +14,9 @@
 
 Essas podem ser vistas como:
 
-1. Interfaces Externas
-2. Adaptadores
-3. Classes de Domínio
-
-## Interfaces Externas
-- Essas são as interfaces que interagem com o mundo externo, como por exemplo, uma interface REST, uma interface gráfica, etc.
-
-## Adaptadores
-- Essas são as interfaces que interagem com as interfaces externas e com as classes de domínio. Elas são responsáveis por adaptar os dados recebidos das interfaces externas para as classes de domínio e vice-versa.
-
-## Classes de Domínio
-- Essas são as classes que representam o domínio da aplicação. Elas são responsáveis por implementar as regras de negócio da aplicação, fazem comunicação com o banco de dados, etc.
+1. Interfaces Externas: interfaces que interagem com o mundo externo, como por exemplo, uma interface REST, uma interface gráfica, etc. 
+2. Adaptadores: interfaces que interagem com as interfaces externas e com as classes de domínio. Elas são responsáveis por adaptar os dados recebidos das interfaces externas para as classes de domínio e vice-versa.
+3. Classes de Domínio: classes que representam o domínio da aplicação. Elas são responsáveis por implementar as regras de negócio da aplicação, fazem comunicação com o banco de dados, etc.
 
 # Implementação Prática
 
